@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Barriecito', cursive;
 }
 
 .container {
@@ -27,7 +28,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Shizuru', cursive;
 }
 
 main {
@@ -46,7 +47,7 @@ section {
     background-color: rgb(154, 187, 154);
     border-radius: 10px;
     margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 40px 10px 40px;
     display: grid;
     justify-content: center;
     line-height: 30px;
@@ -56,7 +57,7 @@ section {
     background-color: rgb(182, 182, 214);
     border-radius: 10px;
     margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 40px 10px 40px;
     display: grid;
     justify-content: center;
     line-height: 30px;
@@ -66,8 +67,9 @@ section {
     background-color: rgb(218, 218, 157);
     border-radius: 10px;
     margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 40px 10px 40px;
     display: grid;
     justify-content: center;
     line-height: 30px;
+    
 }
