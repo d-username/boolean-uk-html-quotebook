@@ -1,6 +1,60 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    border: 0;
+    margin: 0;
+    border: 1px dashed turquoise;
+    
 }
 
+.container {
+    min-height: 100vh;
+}
+
+
+header {
+    background-color: rgb(255, 0, 0);
+    height: 60px;
+    color: white;
+    display: grid;
+    align-items: center;
+    padding-left: 30px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto 600px auto;
+    padding-top: 20px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.style_green_round {
+    background-color: rgb(154, 187, 154);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    display: grid;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.style_blue_round {
+    background-color: rgb(182, 182, 214);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    display: grid;
+    justify-content: center;
+    line-height: 30px;
+}
